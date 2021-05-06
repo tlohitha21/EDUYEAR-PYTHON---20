@@ -1,0 +1,13 @@
+year=int(input("Enter Your Birth Year to Calculate your Age:"))
+print("Your age is {}.".format(2020-year))
+#------------------------------------
+print("-------Arithmetic operations-------")
+a=int(input("Enter first number:"))
+b=int(input("Enter second number:"))
+print("Addition of {} and {} is '{}'." .format(a,b,a+b))
+print("Subtraction of {} and {} is '{}'." .format(a,b,a-b))
+print("Multiplication of {} and {} is '{}'." .format(a,b,a*b))
+print("Floor Divison of {} and {} is '{}'." .format(a,b,a//b))
+print("Divison of {} and {} is '{}'." .format(a,b,a/b))
+print("Modulus of {} and {} is '{}'." .format(a,b,a%b))
+print("Power of {} and {} is '{}'." .format(a,b,a**b))

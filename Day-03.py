@@ -1,5 +1,5 @@
 year=int(input("Enter Your Birth Year to Calculate your Age:"))
-print("Your age is {}.".format(2020-year))
+print("Your age is {}.".format(2021-year))
 #------------------------------------
 print("-------Arithmetic operations-------")
 a=int(input("Enter first number:"))

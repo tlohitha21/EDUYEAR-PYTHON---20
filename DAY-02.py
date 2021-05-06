@@ -6,12 +6,15 @@ print("My name is {},I am {} old and I am earning {}/- per month." .format(name,
 print(type(age))
 print(type(str(age)))
 print(type(float(age)))
-#Type conversion functions from float to int,str
+print(type(bool(age)))
+#Type conversion functions from float to int,str,bool
 print(type(salary))
 print(type(int(salary)))
 print(type(str(salary)))
-#Type conversion functions from str to int,float
+print(type(bool(salary)))
+#Type conversion functions from str to int,float,bool
 print(type(name))
+print(type(bool(name)))
 #print(type(str(name))) getting value error:invalid literal
 name1='2014'
 print(type(int(name1)))
